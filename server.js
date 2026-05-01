@@ -4,7 +4,7 @@ const WebSocket = require('ws');
 const app = express();
 app.use(express.json());
 
-const API_KEY = 'your-api-key-here';
+const API_KEY = 'coolapikey';
 const bots = {};
 let botIdCounter = 0;
 
